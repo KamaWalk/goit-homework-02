@@ -27,11 +27,6 @@ body {
   letter-spacing: 0.32px;
 }
 
-address {
-  font-weight: 400;
-  color: var(--text);
-}
-
 a {
   text-decoration: none;
 }
@@ -69,4 +64,18 @@ a {
 .button:focus {
   color: var(--white-background);
   background-color: var(--pressed-state);
+}
+
+.portfolio-headline {
+    color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer {
+  background-color: var(--dark)
+}
+
+.footer-text {
+  color: var(--light)
 }
