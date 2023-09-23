@@ -14,11 +14,13 @@
 }
 
 body {
-  font-family: Roboto;
+  color: var(--text)
+  font-family: Roboto, sans-serif;
   font-weight: regular;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
+  background-color: var(--white-background);
 }
 .nav a {
   color: var(--dark)
@@ -32,11 +34,11 @@ a {
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-web {
@@ -44,7 +46,6 @@ a {
 }
 
 .address a {
-  color: var(--text)
   letter-spacing: 0.32px;
   font-style: normal;
 }
@@ -72,7 +73,11 @@ a {
   font-weight: 500;
 }
 
-footer {
+.portfolio-list {
+  list-style: none;
+}
+
+.footer {
   background-color: var(--dark)
 }
 
