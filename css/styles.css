@@ -1,10 +1,27 @@
-body {
-  --body-font-family: "Roboto", sans-serif;
-  --body-color: #2e2f42;
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f4266;
+  --hero-background: #2e2f42b2;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
 }
-.nav {
-  font-style: var(--body-font-family);
-  color: var(--body-color);
+
+body {
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.nav a {
+  color: var(--dark)
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -12,13 +29,46 @@ body {
   letter-spacing: 0.32px;
 }
 
-.logo {
+address {
+  font-weight: 400;
+  color: var(--text);
 }
 
-.address {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.logo-web {
+  color: var(--primary-brand);
+}
+
+.address a {
+  color: var(--text)
   letter-spacing: 0.32px;
+  font-style: normal;
+}
+
+.button {
+  color: var(--primary-brand);
+  background-color: var(--light);
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--white-background);
+  background-color: var(--pressed-state);
+}
+
+.button:focus {
+  color: var(--white-background);
+  background-color: var(--pressed-state);
 }
