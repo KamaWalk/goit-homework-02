@@ -76,6 +76,16 @@ footer {
   background-color: var(--dark)
 }
 
+.logo-footer {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--light)
+}
+
 .footer-text {
   color: var(--light)
 }
