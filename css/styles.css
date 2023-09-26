@@ -50,7 +50,7 @@ nav .logo-studio {
   list-style: none;
 }
 
-.nav-link {
+nav > ul >.nav-link {
 color: var(--dark);
 
 }
@@ -89,7 +89,6 @@ color: var(--dark);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  letter-height: 1.5;
   letter-spacing: 0.04em;
   line-height: 1.5;
 }
@@ -134,11 +133,10 @@ color: var(--dark);
 }
 
 .s1-index {
-  
   background-color: var(--dark);
 }
 
-.index-s1-headline {
+.index-s-one-headline {
   color: var(--white-background); 
   text-align: center;
   line-height: 1.07;
@@ -148,7 +146,7 @@ color: var(--dark);
   letter-spacing: 0.02em;
 }
 
-.index-s1-button {
+.index-s-one-button {
   background-color: var(--primary-brand);
   color: var(--white-background);
   font-family: "Roboto", sans-serif;
@@ -156,19 +154,19 @@ color: var(--dark);
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
-.index-s1-button:hover {
+.index-s-one-button:hover {
 background-color: var(--pressed-state);
 }
 
-.index-s1-button:focus {
+.index-s-one-button:focus {
 background-color: var(--pressed-state);
 }
 
-.index-h3 {
+.index-h-three {
   color: var(--dark);
 font-family: "Roboto", sans-serif;
 font-size: 20px;
@@ -188,7 +186,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.index-h2 {
+.index-h-two {
 color: var(--dark);
 text-align: center;
 font-family: "Roboto", sans-serif;
@@ -208,7 +206,7 @@ text-transform: capitalize;
   background-color: var(--white-background);
 }
 
-.index-s4 {
+.index-s-four {
   background-color: var(--light);
 }
 
