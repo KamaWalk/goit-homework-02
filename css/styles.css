@@ -132,3 +132,28 @@ color: var(--dark);
 .footer-text {
   color: var(--light)
 }
+
+.s1-index {
+  
+  background-color: var(--dark);
+}
+
+.index-s1-headline {
+ color: var(--white-background); 
+ text-align: center;
+ line-height: 1.07;
+ font-size: 56px;
+ font-weight: 700;
+ font-style: normal;
+ letter-spacing: 0.02em;
+}
+
+.index-s1-button {
+  background-color: var(--primary-brand);
+  font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
