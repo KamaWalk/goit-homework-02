@@ -50,6 +50,15 @@ nav .logo-studio {
   list-style: none;
 }
 
+.nav-link {
+color: var(--dark);
+
+}
+
+.nav-link:hover .nav-link:focus {
+  color: var(--pressed-state);
+}
+
 .address a {
   letter-spacing: 0.32px;
   font-style: normal;
