@@ -50,7 +50,7 @@ nav .logo-studio {
   list-style: none;
 }
 
-nav > ul >.nav-link {
+nav > .nav-link {
 color: var(--dark);
 
 }
@@ -132,7 +132,7 @@ color: var(--dark);
   color: var(--light)
 }
 
-.s1-index {
+.s-one-index {
   background-color: var(--dark);
 }
 
