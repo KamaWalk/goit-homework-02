@@ -63,7 +63,7 @@ color: var(--dark);
   color: var(--pressed-state);
 }
 
-.address a {
+.address {
   letter-spacing: 0.32px;
   font-style: normal;
 }
@@ -91,6 +91,7 @@ color: var(--dark);
   font-size: 16px;
   letter-height: 1.5;
   letter-spacing: 0.04em;
+  line-height: 1.5;
 }
 
 .button:hover {
@@ -114,14 +115,18 @@ color: var(--dark);
   background-color: var(--dark)
 }
 
-.logo-footer {
-  font-family: Raleway;
-  font-size: 18px;
+.logo {
+  font-family: Raleway, sans-serif;
   font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--light)
+  color: var(--primary-brand)
+}
+
+.logo-studio {
+  color: var(--light);
 }
 
 .footer-text {
