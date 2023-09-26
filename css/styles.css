@@ -13,13 +13,13 @@
   --modal-background: #fcfcfc;
 }
 
-body {
+.body {
   color: var(--text);
   font-family: "Roboto", sans-serif;
   font-weight: regular;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   background-color: var(--white-background);
 }
 .nav a {
@@ -55,7 +55,11 @@ color: var(--dark);
 
 }
 
-.nav-link:hover .nav-link:focus {
+.nav-link:hover {
+  color: var(--pressed-state);
+}
+
+.nav-link:focus {
   color: var(--pressed-state);
 }
 
@@ -64,11 +68,29 @@ color: var(--dark);
   font-style: normal;
 }
 
+.mail-tel {
+  color: var(--text);
+
+}
+
+.mail-tel:hover {
+  color: var(--pressed-state)
+}
+
+.mail-tel:focus {
+  color: var(--pressed-state)
+}
+
 .button {
   color: var(--primary-brand);
   background-color: var(--light);
   text-align: center;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button:hover {
@@ -85,6 +107,7 @@ color: var(--dark);
     color: var(--dark);
   font-size: 20px;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .footer {
