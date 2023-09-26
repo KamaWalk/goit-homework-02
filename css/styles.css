@@ -139,21 +139,31 @@ color: var(--dark);
 }
 
 .index-s1-headline {
- color: var(--white-background); 
- text-align: center;
- line-height: 1.07;
- font-size: 56px;
- font-weight: 700;
- font-style: normal;
- letter-spacing: 0.02em;
+  color: var(--white-background); 
+  text-align: center;
+  line-height: 1.07;
+  font-size: 56px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.02em;
 }
 
 .index-s1-button {
   background-color: var(--primary-brand);
+  color: var(--white-background);
   font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.index-s1-button:hover {
+background-color: var(--pressed-state);
+}
+
+.index-s1-button:focus {
+background-color: var(--pressed-state);
 }
