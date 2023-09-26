@@ -167,3 +167,48 @@ background-color: var(--pressed-state);
 .index-s1-button:focus {
 background-color: var(--pressed-state);
 }
+
+.index-h3 {
+  color: var(--dark);
+font-family: "Roboto", sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.index-p {
+  color: var(--text);
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.index-h2 {
+color: var(--dark);
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.stuff {
+  text-align: center;
+}
+
+.stuff-description {
+  background-color: var(--white-background);
+}
+
+.index-s4 {
+  background-color: var(--light);
+}
+
