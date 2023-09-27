@@ -22,7 +22,7 @@
   letter-spacing: 0.02em;
   background-color: var(--white-background);
 }
-.nav a {
+.nav .nav-link {
   color: var(--dark)
   font-size: 16px;
   font-weight: 500;
@@ -48,11 +48,6 @@ nav .logo-studio {
 
 .list {
   list-style: none;
-}
-
-nav > .nav-link {
-color: var(--dark);
-
 }
 
 .nav-link:hover {
