@@ -18,15 +18,15 @@
   font-family: "Roboto", sans-serif;
   font-weight: regular;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--white-background);
 }
-.nav .nav-link {
+.nav-link {
   color: var(--dark)
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .link {
