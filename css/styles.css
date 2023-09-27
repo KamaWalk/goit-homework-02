@@ -136,15 +136,15 @@ color: var(--dark);
   background-color: var(--dark);
 }
 
-.index-s-one-headline {
-  color: var(--white-background); 
-  text-align: center;
+.first-headline {
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-background);
   font-weight: 700;
   font-style: normal;
-  letter-spacing: 0.02em;
-}
+ }
 
 .index-s-one-button {
   background-color: var(--primary-brand);
