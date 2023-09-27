@@ -139,8 +139,8 @@ color: var(--dark);
 .index-s-one-headline {
   color: var(--white-background); 
   text-align: center;
-  line-height: 1.07;
   font-size: 56px;
+  line-height: 1.07;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.02em;
